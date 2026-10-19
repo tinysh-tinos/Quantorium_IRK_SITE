@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кванториум Байкал | Галактика знаний</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700;800&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Космический фон -->
+  <div class="space-bg">
+    <div class="nebula nebula-1"></div>
+    <div class="nebula nebula-2"></div>
+    <div class="stars-layer stars-1"></div>
+    <div class="stars-layer stars-2"></div>
+    <div class="shooting-star"></div>
+  </div>
+
+  <div class="galaxies" id="galaxiesContainer">
+    <!-- Галактика -->
+    <img src="assets/sib.png" id="mainGalaxyImg" alt="Млечный путь">
+
+    <!-- Заголовок -->
+    <div class="galaxies-header">
+      <a href="../index.html" class="back-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Назад
+      </a>
+      <h1>Кванториум <span class="accent">Сибирь</span></h1>
+    </div>
+
+    <!-- Звёзды-квантумы -->
+    <div class="stars-wrapper">
+
+      <!-- IT-квантум -->
+      <a href="IT/index.html" class="star-link star-it">
+        <div class="star-glow"></div>
+        <div class="star-core"></div>
+        <div class="star-ring"></div>
+        <div class="star-label">
+          <span class="star-num">01</span>
+          <span class="star-name">IT-квантум</span>
+          <span class="star-desc">Программирование, Python, веб, AI</span>
+        </div>
+      </a>
+
+      <!-- Наноквантум -->
+      <a href="Nano/index.html" class="star-link star-nano">
+        <div class="star-glow"></div>
+        <div class="star-core"></div>
+        <div class="star-ring"></div>
+        <div class="star-label">
+          <span class="star-num">02</span>
+          <span class="star-name">Наноквантум</span>
+          <span class="star-desc">Микроскопия, химия, наноматериалы</span>
+        </div>
+      </a>
+
+      <!-- VR/AR-квантум -->
+      <a href="VR/index.html" class="star-link star-vr">
+        <div class="star-glow"></div>
+        <div class="star-core"></div>
+        <div class="star-ring"></div>
+        <div class="star-label">
+          <span class="star-num">03</span>
+          <span class="star-name">VR/AR-квантум</span>
+          <span class="star-desc">Виртуальная и дополненная реальность</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</body>
+</html>
